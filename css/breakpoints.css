@@ -1,0 +1,47 @@
+@media screen and (max-width: 1199px) {
+    .heading {
+        padding-top: 6%;
+    }
+    .my-name {
+        font-size: 270%;
+    }
+
+    .my-desc {
+        font-size: 134%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .heading {
+        padding-top: 12%;
+    }
+
+    .my-name {
+        font-size: 203%;
+    }
+
+    .my-desc {
+        font-size: 84%;
+    }
+}
+/* iPad */
+@media screen and (max-width: 767px) {
+    .my-name {
+        text-align: center;
+    }
+
+    .my-desc {
+        padding-left: 20%;
+        text-align: center;
+    }
+    .logo {
+        text-align: center;
+        margin-right: 0;
+    }
+}
+/* Google Nexus 5 */
+@media screen and (max-width: 361px) {
+    .my-desc {
+        padding-left: 30%;
+    }
+}

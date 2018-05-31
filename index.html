@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Yazan's Portfolio</title>
+        <!-- I included the CSS file instead of using the CDN to increase optimization #PerfMatters. -->
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/main.css">
+        <!-- I seperated media queries to prevent clogging -->
+        <link rel="stylesheet" href="./css/breakpoints.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <!-- As per your request, I've added header, main and footer tags. -->
+            <header class="row">
+                <div class="col-md-1 logo">
+                    <img src="./img/portfolio-logo.png" alt="Yazan's Logo">
+                </div>
+
+                <div class="col-md-4 heading ">
+                    <h1 class="my-name">Yazan AL-Baiz</h1>
+                    <h4 class="my-desc">Web Developer</h4>
+                 </div>
+            </header>
+
+            <div class="row">
+                <div class="col-xl-12">
+                    <hr class="title-div">
+                </div>
+            </div>
+
+            <main class="row">
+                <div class="col-xl-12">
+                    <img class="main-img" src="./img/main-img.jpg" alt="Web Developer Stock Image">
+                </div>
+            </main>
+
+            <div class="row featured">
+                <div class="col-xl-12">
+                    <h2 class="featured">Featured Work</h2>
+                 </div>
+            </div>
+
+            <footer class="row">
+                    <!-- I used figure for two reasons:
+                        - It's a semantic tag.
+                        - It serves the purpose I wanted.
+                    -->
+                <figure class="col-lg-4 work">
+                    <img src="./img/swapshop-logo.png" alt="Swap Shop Logo">
+                    <figcaption class="work-caption">
+                                Swap Shop
+                        <a href="https://github.com/yazanalbaiz/Swap-Shop"><p class="work-link">https://github.com/yazanalbaiz/Swap-Shop</p></a>
+                    </figcaption>
+                </figure>
+                
+                <figure class="col-lg-4 work">
+                    <img src="./img/subtitle-seq.png" alt="Closed Captions Logo">
+                    <figcaption class="work-caption">
+                                Subtitle Sequnce
+                        <a href="https://github.com/yazanalbaiz/Subtitle-Sequence"><p class="work-link">https://github.com/yazanalbaiz/Subtitle-Sequence</p></a>
+                    </figcaption>
+                </figure>
+
+                <figure class="col-lg-4 work">
+                    <img src="./img/FEND-logo.png" alt="Udacity Front End Nano Degree Logo">
+                    <figcaption class="work-caption">
+                                Portfolio
+                        <a href="https://github.com/yazanalbaiz/yazansportfolio"><p class="work-link">https://github.com/yazanalbaiz/yazansportfolio</p></a>
+                    </figcaption>
+                </figure>
+            </footer>
+
+        </div>
+        
+    </body>
+
+</html>

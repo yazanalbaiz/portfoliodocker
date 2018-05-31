@@ -1,0 +1,49 @@
+.container {
+    padding: 2.5% 2.5% 2.5% 2.5%;
+}
+
+.title-div {
+    border-top: 0.25em solid #7d97ad;
+}
+
+.my-name {
+    font-size: 320%;
+}
+
+.my-desc {
+    /* I choose a browser safe font famliy */
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 40%;
+}
+
+.heading {
+    padding-top: 3%;
+}
+
+.logo {
+    margin-right: 58%;
+}
+
+.main-img {
+    width: 100%;
+}
+
+.featured {
+    color: #7d97ad;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1.5%;
+    padding-bottom: 0.25%;
+    padding-left: 0.5%;
+}
+
+.work {
+    text-align: center;
+}
+
+.work-caption {
+    font-size: 2em;
+}
+.work-link {
+    font-size: 0.5em;
+    color: black;
+}
