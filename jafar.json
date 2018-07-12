@@ -2,8 +2,8 @@
     "type": "node",
     "dockerfile": "Dockerfile",
     services: [{
-                "name": "my_worker",
-                "type": "worker",
-                "command":"celery worker --beat"
+                "name": "yazans_service",
+                "type": "yazan",
+                "command":"echo 'Hello, World'"
            }]
 }
