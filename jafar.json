@@ -1,4 +1,9 @@
 {
     "type": "node",
-    "dockerfile": "Dockerfile"
+    "dockerfile": "Dockerfile",
+    services: [{
+                "name": "my_worker",
+                "type": "worker",
+                "command":"celery worker --beat"
+           }]
 }
