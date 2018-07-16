@@ -1,9 +1,11 @@
 {
     "type": "node",
     "dockerfile": "Dockerfile",
-    services: [{
-                "name": "yazans_service",
-                "type": "yazan",
-                "command":"echo 'Hello, World'"
-           }]
+    "services": [
+                {
+                    "name": "echnomatic",
+                    "type": "echoer",
+                    "command":"echo 111"
+                }
+                ],
 }
