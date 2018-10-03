@@ -1,11 +1,4 @@
 {
     "type": "node",
     "dockerfile": "Dockerfile",
-    "services": [
-                {
-                    "name": "echnomatic",
-                    "type": "echoer",
-                    "command":"echo 111"
-                }
-                ],
 }
