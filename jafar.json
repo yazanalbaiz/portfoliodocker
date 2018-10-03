@@ -1,4 +1,5 @@
 {
-    "type": "node",
-    "dockerfile": "Dockerfile",
+                "type": "nodejs",
+                "dockerfile": "Dockerfile",
+                "after_deploy_command": "node app.js"
 }
